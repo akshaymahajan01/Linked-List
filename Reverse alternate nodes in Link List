@@ -2,7 +2,7 @@ class Solution
 {
     public:
     Node*reverse(Node*head) {
-        if(!head or !head->next) {
+        if(!head or !head->next) { 
             return head;
         }
         Node*smallHead = reverse(head->next);
